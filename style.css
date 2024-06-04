@@ -1,0 +1,41 @@
+.btn {
+    padding: 12px 24px;
+    border-radius: 4px;
+}
+
+.brand-container {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.img-brand {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+}
+
+.text-brand {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.selected {
+    background-color: #A53DFF;
+    color: white;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
