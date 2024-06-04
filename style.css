@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+}
+
 .btn {
     padding: 12px 24px;
     border-radius: 4px;
@@ -33,9 +44,19 @@
 .menu {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .container {
     width: 1200px;
     margin: auto;
+}
+
+.body {
+    background-color: #f1f1f1;
+}
+
+.header {
+    background-color: white;
+    padding: 12px 0px;
 }
